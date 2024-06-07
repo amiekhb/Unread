@@ -622,3 +622,23 @@ body {
   transform: scaleY(1.05);
   transform-origin: bottom;
 } */
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  .section_1_background img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .section_1_background {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .section_1_background {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .section_1_background {
+    width: 100%;
+  }
+}
